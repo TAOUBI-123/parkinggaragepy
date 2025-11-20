@@ -40,6 +40,7 @@ class ParkingGarage:
 
     def check_occupancy(self, pin: int) -> bool:
         # To be implemented
+        return GPIO.input(pin)
         pass
 
     def get_number_occupied_spots(self) -> int:
